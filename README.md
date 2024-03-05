@@ -9,7 +9,7 @@
 ## Main Features
 Here are the things you can do with mdgen:
 
-  - Generate a md file with sections defined in a template for each entry in a roster file
+  - Generate an md file with sections defined in a template for each entry in a roster file
   - Add or remove sections from individual files or all files
   - Add to or replace content of sections in individual files or all files
 

@@ -1,5 +1,5 @@
 """
-Generates markdown files for people.
+Generates markdown files for things.
 """
 import os
 import sys
@@ -7,18 +7,18 @@ from generator.md_generator import MDGenerator
 
 TEMPLATE = "person.md"
 ROSTER = "people.txt"
-PEOPLE_PATH = os.getcwd() + "/person-files/"
+FILES_PATH = os.getcwd() + "/people/"
 
 
 def main():
     """
     Run the program.
     """
-    print("Running people-generator.py")
+    print("Running file_generator.py")
     # Get command line arguments
     args = sys.argv
     # Create an MDGenerator with the template, roster, and path
-    md_generator = MDGenerator(TEMPLATE, ROSTER, PEOPLE_PATH)
+    md_generator = MDGenerator(TEMPLATE, ROSTER, FILES_PATH)
 
     # If there are no arguments, create people in the current directory
     if len(args) == 1:
@@ -36,8 +36,8 @@ def main():
             # The second argument is the section to remove
             section = args[2]
             md_generator.global_remove_section(section)
-        elif command == "add-person":
-            # The second argument is the name of the person
+        elif command == "make-file":
+            # The second argument is the name of the thing
             name = args[2]
             md_generator.make_file(name)
         else:
