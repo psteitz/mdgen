@@ -10,8 +10,8 @@
 Here are the things you can do with mdgen:
 
   - Generate an md file with sections defined in a template for each entry in a roster file
-  - Add or remove sections from individual files or all files
-  - Add to or replace content of sections in individual files or all files
+  - Add or remove sections from selected files
+  - Add to or replace content of sections in selected files
 
 ## Where to get it
 The source code is currently hosted on GitHub at:
