@@ -14,8 +14,7 @@ Here are the things you can do with mdgen:
   - Add to or replace content of sections in selected files
 
 ## Where to get it
-The source code is currently hosted on GitHub at:
-https://github.com/psteitz/mdgen
+The source code is here.
 
 There is no binary installer or packaged distribution at this time.
 
